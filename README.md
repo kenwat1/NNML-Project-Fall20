@@ -9,9 +9,10 @@ This project seeks to replicate the work of Carlyon (1991) using a convolutional
 ## Methods
 <img src="coherent_harmonic.PNG"
      alt="task figure"
-     height=400
+     height=350
+     style ="float: left; margin-right: 10px;" />
 <em><br><strong>Figure 1.</strong> A sample of images of exemplars input into the networks for typicality and similarity ratings. A range is shown from the most typical to the least typical exemplars as identified by human participants. </em>
-  
+
 ## Results
 
 ## Discussion

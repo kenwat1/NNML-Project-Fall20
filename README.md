@@ -9,22 +9,22 @@ This project seeks to replicate the work of Carlyon (1991) using a convolutional
 ## Methods
 <img src="coherent_harmonic.PNG"
      alt="task figure"
-     height=350
+     height=300
      style ="float: left; margin-right: 10px;" />
 <em><br><strong>Figure 1.</strong> A time-by-frequency representation of a coherently frequency modulated sound and its waveform. </em>
 <img src="incoherent_harmonic.PNG"
      alt="task figure"
-     height=350
+     height=300
      style ="float: left; margin-right: 10px;" />
 <em><br><strong>Figure 2.</strong> A time-by-frequency representation of a incoherently frequency modulated sound and its waveform. </em>
 <img src="coherent_inharmonic.PNG"
      alt="task figure"
-     height=350
+     height=300
      style ="float: left; margin-right: 10px;" />
 <em><br><strong>Figure 1.</strong> A time-by-frequency representation of a coherently frequency modulated sound and its waveform. </em>
 <img src="coherent_harmonic.PNG"
      alt="task figure"
-     height=350
+     height=300
      style ="float: left; margin-right: 10px;" />
 <em><br><strong>Figure 1.</strong> A time-by-frequency representation of a coherently frequency modulated sound and its waveform. </em>
 

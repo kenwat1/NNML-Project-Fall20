@@ -6,11 +6,11 @@ In natural auditory environments, we are constantly exposed to multiple concurre
 
 Carlyon (1991) stated that it is first necessary to measure sensitivity to FM coherence to further study the use of incoherence in the perceptual separation of concurrent complex sounds. Accordingly, Carlyon conducted experiments on discrimination between incoherently and coherently modulated complex sounds, using harmonic and inharmonic stimuli. Harmonic stimuli consistsed of carrier frequencies of 1500 and 2000 Hz, while inharmonic stimuli had carrier frequencies of 1600 and 2300 Hz. 
 
-<img src="Carlyon(1991)fig.PNG"
+<img src="Calryon.PNG"
      alt="task figure"
      height=280
      style ="float: left; margin-right: 10px;" />
-<em><br><strong>Figure 2.</strong> A time-by-frequency representation of a coherently frequency modulated harmonic sound and its waveform. </em>
+<em><br><strong>Figure 1.</strong> Results of Carlyon (1991). Each panel represents one individual, showing d prime as a function of modulator phase delay for harmonic (every condition but 1600 + 2300 Hz) and inharmonic (1600 + 2300 Hz) stimuli. </em>
 
 This project seeks to replicate the work of Carlyon (1991) using a convolutional neural network. Two questions we investigate in this project are: (1) Can a neural network disriminate between coherent 
 

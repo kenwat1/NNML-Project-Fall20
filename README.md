@@ -6,7 +6,7 @@ In natural auditory environments, we are constantly exposed to multiple concurre
 
 Carlyon (1991) stated that it is first necessary to measure sensitivity to FM coherence to further study the use of incoherence in the perceptual separation of concurrent complex sounds. Accordingly, Carlyon conducted experiments on discrimination between incoherently and coherently modulated complex sounds, using harmonic and inharmonic stimuli. Harmonic stimuli consistsed of carrier frequencies of 1500 and 2000 Hz, while inharmonic stimuli had carrier frequencies of 1600 and 2300 Hz. 
 
-<img src="Carlyon (1991)_fig.PNG"
+<img src="Carlyon(1991)fig.PNG"
      alt="task figure"
      height=280
      style ="float: left; margin-right: 10px;" />

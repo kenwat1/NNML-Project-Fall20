@@ -11,22 +11,22 @@ This project seeks to replicate the work of Carlyon (1991) using a convolutional
      alt="task figure"
      height=280
      style ="float: left; margin-right: 10px;" />
-<em><br><strong>Figure 1.</strong> A time-by-frequency representation of a coherently frequency modulated harmonic sound and its waveform. </em>
+<em><br><strong>Figure 2.</strong> A time-by-frequency representation of a coherently frequency modulated harmonic sound and its waveform. </em>
 <img src="incoherent_harmonic.PNG"
      alt="task figure"
      height=280
      style ="float: left; margin-right: 10px;" />
-<em><br><strong>Figure 2.</strong> A time-by-frequency representation of a incoherently frequency modulated harmonic sound and its waveform. </em>
+<em><br><strong>Figure 3.</strong> A time-by-frequency representation of a incoherently frequency modulated harmonic sound and its waveform. </em>
 <img src="coherent_inharmonic.PNG"
      alt="task figure"
      height=280
      style ="float: left; margin-right: 10px;" />
-<em><br><strong>Figure 3.</strong> A time-by-frequency representation of a coherently frequency modulated inharmonic sound and its waveform. </em>
+<em><br><strong>Figure 4.</strong> A time-by-frequency representation of a coherently frequency modulated inharmonic sound and its waveform. </em>
 <img src="incoherent_inharmonic.PNG"
      alt="task figure"
      height=280
      style ="float: left; margin-right: 10px;" />
-<em><br><strong>Figure 4.</strong> A time-by-frequency representation of a coherently frequency modulated inharmonic sound and its waveform. </em>
+<em><br><strong>Figure 5.</strong> A time-by-frequency representation of a coherently frequency modulated inharmonic sound and its waveform. </em>
 
 ## Results
 

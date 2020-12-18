@@ -4,7 +4,7 @@
 
 In natural auditory environments, we are constantly exposed to multiple concurrent sound sources. Our auditory system can partition the acoustic featuers into meaningful custers and then group them together to form auditory events. This process is called auditory scene analysis (Bregman, 1990) and allows us to extract essential information effectively from a noisy environment. To do this effectively, we rely on some acoustic cues contributing to the fusion/segregation of multiple sounds, such as onset asynchrony, harmonicity, or spectral proximity. Another acoustic feature we commonly observe in the auditory scene is change in frequency, and one example is sinusoidal frequency modulation (SFM). When multiple sounds go through the same modulation pattern, they are called to be "coherent". Many natural sounds, such as voice or music, contain coherent oscillation in frequnencies of their components. One question can be raised: can frequency modulation (FM) coherence be a grouping cue?
 
-Carlyon (1991) stated that it is first necessary to measure sensitivity to FM coherence to further study the use of incoherence in the perceptual separation of concurrent complex sounds. Accordingly, Carlyon conducted experiments on discrimination between incoherently and coherently modulated complex sounds, using harmonic and inharmonic stimuli. Harmonic stimuli consistsed of carrier frequencies of 1500 and 2000 Hz, while inharmonic stimuli had carrier frequencies of 1600 and 2300 Hz. The task was to judge whether the sound played was coherent (componenets were modulated in-phase) or incoherent (one component has a phase delay). As shown in Figure 1, listeners achieved near-perfect performance when a sound was harmonic, but no improvement in 
+Carlyon (1991) stated that it is first necessary to measure sensitivity to FM coherence to further study the use of incoherence in the perceptual separation of concurrent complex sounds. Accordingly, Carlyon conducted experiments on discrimination between incoherently and coherently modulated complex sounds, using harmonic and inharmonic stimuli. Harmonic stimuli consistsed of carrier frequencies of 1500 and 2000 Hz, while inharmonic stimuli had carrier frequencies of 1600 and 2300 Hz. The task was to judge whether the sound played was coherent (componenets were modulated in-phase) or incoherent (one component has a phase delay). As shown in Figure 1, listeners achieved near-perfect performance when a sound was harmonic, but no improvement in discriminaton using inharmonic complexes. Carlyon reasoned that listeners were able to discriminate between coherent and incoherent FM because modulation incoherence caused one component in a harmonic complex to become mistuned. Performance was greately reduced when this "mistuning" cue was unavailable. He therefore argued that there exists no across-frequency mechanism specific to detection of FM coherence.
 
 <img src="Calryon.PNG"
      alt="task figure"
@@ -12,7 +12,7 @@ Carlyon (1991) stated that it is first necessary to measure sensitivity to FM co
      style ="float: left; margin-right: 10px;" />
 <em><br><strong>Figure 1.</strong> Results of Carlyon (1991). Each panel represents one individual, showing d prime as a function of modulator phase delay for harmonic (every condition but 1600 + 2300 Hz) and inharmonic (1600 + 2300 Hz) stimuli. </em>
 
-On the other hand, a very powerful algorithm known as the Convolutional Neural Network CNN)
+On the other hand, a very powerful algorithm known as the Convolutional Neural Network (CNN) is often used for classification task. Its capabilities for performing Machine Learning on images are well known and explored. For example, 
 
 This project seeks to replicate the work of Carlyon (1991) using CNN. Two questions we investigate in this project are: (1) Can a neural network disriminate between coherent and incoherent FM? and (2) Is there a difference in prediction accuracy between harmonic and inharmonic stimuli just like human listeners did? 
 
@@ -44,12 +44,13 @@ The dataset contained 350 samples of coherent and incoherent FM sound waveforms,
 
 
 **Convolutional Networks**
-
+We used one of the basic architectures: LeNet. 
 
 ## Results
 
 
 ## Discussion
+
 
 ## References
 Bregman, A. S. (1990). Auditory Scene Analysis: The Perceptual Organization of Sound. MIT Press.

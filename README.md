@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In natural auditory environments, we are constantly exposed to multiple concurrent sound sources and our auditory system can partition the acoustic featuers into meaningful custers and them group them together to form auditory events. This process is called auditory scene analysis (Bregman, 1990) and allows us to extract essential information effectively from a noisy environment. 
+In natural auditory environments, we are constantly exposed to multiple concurrent sound sources and our auditory system can partition the acoustic featuers into meaningful custers and them group them together to form auditory events. This process is called auditory scene analysis (Bregman, 1990) and allows us to extract essential information effectively from a noisy environment. To do this effectively, we rely on some acoustic cues contributing to the fusion/segregation of multiple sounds, such as onset asynchrony, harmonicity, or spectral proximity. Another acoustic feature we commonly observe in the auditory scene is change in frequency, and one example is sinusoidal frequency modulation (SFM). When multiple sounds go through the same modulation pattern, they are called to be "coherent". Many natural sounds, such as voice or music, contain coherent oscillation in frequnencies of their components.
 
 This project seeks to replicate the work of Carlyon (1991) using a convolutional neural network. Two questions we investigate in this project are: (1) Can a neural network disriminate between coherent 
 

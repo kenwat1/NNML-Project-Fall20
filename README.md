@@ -19,7 +19,7 @@ This project seeks to replicate the work of Carlyon (1991) using CNN. Two questi
 ## Methods
 
 **Stimuli and Dataset Structure**
-The dataset contained 350 samples of coherent and incoherent FM sound waveforms, 50 of which were used as testing set, and 300 were used as training set. Each signal was 600-ms long and was generated via MATLAB. For each sample, coherent waveforms were labeled "0" and incoherent ones were labeled "1". Waveforms and labels were saved separately as "data" and "target", respectively. 
+The dataset contained 550 samples of coherent and incoherent FM sound waveforms, 50 of which were used as testing set, and 500 were used as training set. Each signal was 600-ms long and was generated via MATLAB. Incoherent FM had a phase delay of pi between components. For each sample, coherent waveforms were labeled "0" and incoherent ones were labeled "1". Waveforms and labels were saved separately as "data" and "target", respectively. In accordance with the work of Carlyon (1991), harmonic stimuli consisted of carrier frequencies of 1500 and 2000 Hz, while inharmonic stimuli had carrier frequencies of 1600 and 2300 Hz. Figures 2-5 show what each stimulus type looks like.  
 
 <img src="coherent_harmonic.PNG"
      alt="task figure"
@@ -44,7 +44,7 @@ The dataset contained 350 samples of coherent and incoherent FM sound waveforms,
 
 
 **Convolutional Networks**
-We used one of the basic architectures: LeNet. 
+The neural network used in this project is a convolutional neural network using Conv1D. The network consists of three layers, two convolutional and an output layers. 
 
 ## Results
 

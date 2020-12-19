@@ -47,10 +47,10 @@ The dataset contained 550 samples of coherent and incoherent FM sound waveforms,
 The neural network used in this project is a convolutional neural network using Conv1D. The network consists of three layers, two convolutional and an output layers. 
 
 ## Results
-
+Results are shown in Figure 6 and 7, representing the training and testing accuracies. 
 
 ## Discussion
-
+This project was intended to apply the Convolutional Neural Network to the work by Carlyon (1991) on discrimination of FM coherence and incoherence. The psychophysical experiment showed that human listeners are sensitive to FM incoherence only with harmonic stimuli because "mistuning cue" is not available with inharmonic stimuli. The current project was expected to be a bridge between two fields: psychophysics and machine learning.
 
 ## References
 Bregman, A. S. (1990). Auditory Scene Analysis: The Perceptual Organization of Sound. MIT Press.

@@ -48,12 +48,12 @@ The neural network used in this project is a convolutional neural network using 
 
 ## Results
 Results are shown in Figure 6 and 7, representing the training and testing accuracies. 
-<img src="CNN1D_harmo.PNG"
+<img src="CNN1D_harmo.png"
      alt="task figure"
      height=280
      style ="float: left; margin-right: 10px;" />
 <em><br><strong>Figure 6.</strong> Training and Testing accuracies for harmonic stimuli. </em>
-<img src="CNN1D_inharmo.PNG"
+<img src="CNN1D_inharmo.png"
      alt="task figure"
      height=280
      style ="float: left; margin-right: 10px;" />

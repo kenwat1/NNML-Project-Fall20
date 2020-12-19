@@ -48,11 +48,13 @@ The neural network used in this project is a convolutional neural network using 
 
 ## Results
 Results are shown in Figure 6 and 7, representing the training and testing accuracies. 
+
 <img src="CNN1D_harmo.png"
      alt="task figure"
      height=280
      style ="float: left; margin-right: 10px;" />
 <em><br><strong>Figure 6.</strong> Training and Testing accuracies for harmonic stimuli. </em>
+
 <img src="CNN1D_inharmo.png"
      alt="task figure"
      height=280
@@ -62,6 +64,9 @@ Results are shown in Figure 6 and 7, representing the training and testing accur
 ## Discussion
 This project was intended to apply the Convolutional Neural Network to the work by Carlyon (1991) on discrimination of FM coherence and incoherence. The psychophysical experiment showed that human listeners are sensitive to FM incoherence only with harmonic stimuli because "mistuning cue" is not available with inharmonic stimuli. The current project was expected to be a bridge between two fields: psychophysics and machine learning.
 
+The data did not show successful
+
+Some future directions are: (1)
 ## References
 Bregman, A. S. (1990). Auditory Scene Analysis: The Perceptual Organization of Sound. MIT Press.
 

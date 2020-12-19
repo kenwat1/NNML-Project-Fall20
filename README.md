@@ -45,6 +45,7 @@ The dataset contained 550 samples of coherent and incoherent FM sound waveforms,
 
 
 **Convolutional Networks**
+
 The neural network used in this project is a convolutional neural network using Conv1D. The network consists of three layers, two convolutional and an output layers. 
 
 ## Results

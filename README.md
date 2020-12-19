@@ -47,7 +47,7 @@ The dataset contained 550 samples of coherent and incoherent FM sound waveforms,
 The neural network used in this project is a convolutional neural network using Conv1D. The network consists of three layers, two convolutional and an output layers. 
 
 ## Results
-Results are shown in Figure 6 and 7, representing the training and testing accuracies. 
+Results are shown in Figure 6 and 7, representing the training and testing accuracies. Training accuracy remained at around 50% for both harmonic and inharmonic stimuli, and testing accuracy did not go over 56%. From the results, we cannot conclude that the network learned to discriminate between FM coherence and incoherence, no matter what the harmonic relation between components is. 
 
 <img src="CNN1D_harmo.png"
      alt="task figure"
@@ -64,9 +64,10 @@ Results are shown in Figure 6 and 7, representing the training and testing accur
 ## Discussion
 This project was intended to apply the Convolutional Neural Network to the work by Carlyon (1991) on discrimination of FM coherence and incoherence. The psychophysical experiment showed that human listeners are sensitive to FM incoherence only with harmonic stimuli because "mistuning cue" is not available with inharmonic stimuli. The current project was expected to be a bridge between two fields: psychophysics and machine learning.
 
-The data did not show successful
+The data did not show successful result; training accuracy was slightly better with inharmonic stimuli Unsuccessful result was most likely due to some errors in the model. If not, one possibility is that difference in waveforms between coherent and incoherent FM was so subtle that the network could not detect that difference, although CNN is capable of classifying a wide range of audio signals by extracting more apparent features. It is still unclear whether the neural network can use the phase information to categorize two types of stimuli. 
 
-Some future directions are: (1)
+Some future directions are: (1) Increasing the sample size, (2) Using RNN or a combination of both CNN and RNNs to improve the sequential understanding of the data, or (3) Adding more components to complexes so that difference in waveforms between coherent and incoherent FM could become more clear. 
+
 ## References
 Bregman, A. S. (1990). Auditory Scene Analysis: The Perceptual Organization of Sound. MIT Press.
 
